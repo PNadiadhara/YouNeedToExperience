@@ -11,6 +11,8 @@
 		BFD2EB3527B1C2C100F95632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2EB3427B1C2C100F95632 /* ContentView.swift */; };
 		BFD2EB3727B1C2C300F95632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD2EB3627B1C2C300F95632 /* Assets.xcassets */; };
 		BFD2EB3A27B1C2C300F95632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD2EB3927B1C2C300F95632 /* Preview Assets.xcassets */; };
+		BFD2EB4727B1D78E00F95632 /* YNEButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2EB4627B1D78E00F95632 /* YNEButton.swift */; };
+		BFD2EB4927B1D9D200F95632 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2EB4827B1D9D200F95632 /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BFD2EB3427B1C2C100F95632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFD2EB3627B1C2C300F95632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD2EB3927B1C2C300F95632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD2EB4627B1D78E00F95632 /* YNEButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNEButton.swift; sourceTree = "<group>"; };
+		BFD2EB4827B1D9D200F95632 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		BFD2EB4427B1C58600F95632 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				BFD2EB4627B1D78E00F95632 /* YNEButton.swift */,
+				BFD2EB4827B1D9D200F95632 /* XDismissButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -185,8 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD2EB4727B1D78E00F95632 /* YNEButton.swift in Sources */,
 				BFD2EB3527B1C2C100F95632 /* ContentView.swift in Sources */,
 				BFD2EB3327B1C2C100F95632 /* YouNeedToExperienceApp.swift in Sources */,
+				BFD2EB4927B1D9D200F95632 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
